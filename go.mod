@@ -2,6 +2,8 @@ module github.com/synctv-org/synctv
 
 go 1.23.0
 
+toolchain go1.24.1
+
 replace github.com/synctv-org/vendors => ./vendors
 
 require (
@@ -22,7 +24,7 @@ require (
 	github.com/google/go-github/v56 v56.0.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
-	github.com/hashicorp/consul/api v1.31.2
+	github.com/hashicorp/consul/api v1.32.0
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/go-plugin v1.6.3
 	github.com/joho/godotenv v1.5.1
